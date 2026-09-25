@@ -1,15 +1,15 @@
 {
   "build": {
     "arduino": {
-      "memory_type": "opi_opi"
+      "memory_type": "qio_qspi"
     },
     "core": "esp32",
     "extra_flags": "-DBOARD_HAS_PSRAM -DARDUINO_USB_CDC_ON_BOOT=0 -DARDUINO_USB_MODE=0",
     "f_cpu": "240000000L",
     "f_flash": "80000000L",
-    "flash_mode": "opi",
+    "flash_mode": "qio",
     "mcu": "esp32s3",
-    "psram_type": "opi",
+    "psram_type": "qio",
     "variant": "esp32s3"
   },
   "connectivity": [
